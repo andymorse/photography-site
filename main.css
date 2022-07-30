@@ -11,6 +11,8 @@
     --darkblue: #025492;
     --boldblue: #0000ff;
     --transition: all 0.5s ease;
+    --blank:  #FFFFFF;
+    --black: #000000;
 }
 *{
     padding: 0;
@@ -215,7 +217,7 @@ blockquote span{
 }
 .social-icons ul a:hover{
     background: var(--yellow);
-    border-color: var(--yellow);
+    border-color: var(--lightGreen);
 }
 
 /********************* End of Header ***********************/
@@ -481,7 +483,7 @@ blockquote span{
     opacity: 0.7;
 }
 .subs{
-    background: #ffc900;
+    background: #000;
     width: 350px;
     display: flex;
     justify-content: space-between;
@@ -500,20 +502,20 @@ blockquote span{
     font-size: 16px;
     padding: 0 5px;
     outline: 0;
-    color: #ffc900;
+    color: #fff;
 }
 .subs button{
     flex: 30%;
     font-size: 16px;
     padding: 15px 0;
     font-weight: bold;
-    background: var(--yellow);
+    background: var(--lightGreen);
     border: none;
     transition: var(--transition);
     cursor: pointer;
 }
 .subs button:hover{
-    color: #ffc900;
+    color: #fff;
 }
 .footer > p{
     text-align: center;
